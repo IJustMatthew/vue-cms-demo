@@ -1,0 +1,39 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "esnext",
+    "strict": true,
+    "jsx": "preserve",
+    "importHelpers": true,
+    "moduleResolution": "node",
+    "noImplicitAny": false,
+    "noImplicitThis": true,
+    "allowJs": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "noUnusedLocals": false,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+    "useDefineForClassFields": true,
+    "useUnknownInCatchVariables": false,
+    "sourceMap": true,
+    "baseUrl": ".",
+    "types": ["node", "vite/client", "vue3-toastify/global"],
+    "paths": {
+      "@/*": ["src/*"],
+      "tslib": ["./node_modules/tslib/tslib.d.ts"]
+    },
+    "lib": ["esnext", "dom", "dom.iterable"]
+  },
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.tsx",
+    "src/**/*.vue",
+    "tests/**/*.ts",
+    "tests/**/*.tsx",
+    "src/router/router.ts",
+    "src/main.ts"
+  ],
+  "exclude": ["node_modules", "build/**/*"]
+}

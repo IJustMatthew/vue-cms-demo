@@ -1,0 +1,27 @@
+/* Breakpoints for media queries */
+$lg: 1264px;
+$md: 960px;
+$sm: 600px;
+
+/* Basic media queries */
+
+/* < 1264px */
+@mixin until-tablet {
+  @media (max-width: $lg) {
+    @content;
+  }
+}
+
+/* < 960px */
+@mixin until-phone {
+  @media (max-width: $md) {
+    @content;
+  }
+}
+
+/* < 600px */
+@mixin until-smallphone {
+  @media (max-width: $sm) {
+    @content;
+  }
+}

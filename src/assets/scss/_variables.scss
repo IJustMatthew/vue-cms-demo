@@ -1,0 +1,36 @@
+// SCSS color variables
+$light: #fff;
+$dark: #0b0b0e;
+$primary: #e9eff2;
+$secondary: #3d22cf;
+$theme1: #1c40a3;
+$theme2: #de40a3;
+$theme3: #31f1ac;
+$hover: #f7fafc;
+$cancel: #e2e8eb;
+$inactive: #9aa7af;
+$label1: #efe2fe;
+$label2: #c8e7f9;
+$label3: #c8f9d7;
+$label-text: #624d9c;
+$error: #eb5151;
+
+// Override toastify success color
+:root {
+  --toastify-color-success: #3d22cf;
+}
+
+// SCSS sizing variables
+$sidebar-width: 210px;
+$padding-xs: 10px;
+$padding-sm: 20px;
+$padding-md: 40px;
+$padding-lg: 60px;
+$padding-xl: 80px;
+
+// SCSS font variables
+$font-xs: 10px;
+$font-sm: 14px;
+$font-md: 16px;
+$font-lg: 20px;
+$font-xl: 24px;
